@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="sweet cute kitty">
+	<title>Abi the Cat</title>
+    <meta name="author" content="Sirius">
+	<link rel="stylesheet" href="weabi.css">
+	<link rel="icon" href="favicon.png" type="image/png"> 
+</head>
+<body>
+	<header>
+		<div class="header_container">
+			<div class="logo" id="logo">
+				<p class="site_name" id="siteName">Abi the Cat</p>
+			</div>
+			<div class="hamburger">☰</div>
+			<nav class="main_menu">
+				<ul class="menu_list">
+					<li class="menu_item"><a href="#home" class="menu_link">Home</a></li>
+					<li class="menu_item"><a href="#about" class="menu_link">About</a></li>
+					<li class="menu_item"><a href="#gallery" class="menu_link">Gallery</a></li>
+					<li class="menu_item"><a href="#funFacts" class="menu_link">Fun Facts</a></li>
+					<li class="menu_item"><a href="#testimonials" class="menu_link">Testimonials</a></li>
+					<li class="menu_item"><a href="#contacts" class="menu_link">Contacts</a></li>
+				</ul>
+			</nav>
+			<button class="toggle_light_dark" id="toggleButton" aria-label="Toggle Light/Dark Mode">🌙</button>
+		</div>
+	</header>
+	<main>
+		<section class="hero_main" id="home">
+			<div class="carousel">
+				<div class="carousel_inner">
+					<div class="slide">
+						<img class="slide_img" src="cat1.jpg" alt="Abi looking majestic" title="Abi looking majestic">
+						<div class="slide_text">Majestic Abi</div>
+					</div>
+					<div class="slide">
+						<img class="slide_img" src="cat2.jpg" alt="Abi doing yoga" title="Abi doing yoga">
+						<div class="slide_text">Abi doing yoga</div>
+					</div>
+					<div class="slide">
+						<img class="slide_img" src="cat3.jpg" alt="Sleepy Abi" title="Sleepy Abi">
+						<div class="slide_text">Sleepy Abi</div>
+					</div>
+					<div class="slide">
+						<img class="slide_img" src="cat4.jpg" alt="Abi staring at you" title="Abi staring at you">
+						<div class="slide_text">Abi staring at you</div>
+					</div>
+				</div>
+				<button class="prev" aria-label="Previous Slide">&#10094;</button>
+				<button class="next" aria-label="Next Slide">&#10095;</button>
+		        <div class="dots">
+		            <span class="dot active" data-index="0"></span>
+		            <span class="dot" data-index="1"></span>
+		            <span class="dot" data-index="2"></span>
+		            <span class="dot" data-index="3"></span>
+		        </div>
+			</div>
+		</section>
+		<section class="about" id="about">
+			<div class="about_container">
+				<div class="about_text">
+					<h2>About her Highness Abigail!</h2>
+					<p>Abi is an amazing, beautiful kitty, she is obliging and adorable no matter what she does. Whether it's sleeping, doing yoga, eating or whatever. She is wonderful at everything.</p>
+				</div>
+				<div class="about_image">
+					<img src="cat5.jpg" alt="Paw escaped" title="Paw escaped">
+				</div>
+			</div>
+		</section>
+		<section class="gallery" id="gallery">
+			<h2>Look how Abi grew up.</h2>
+			<div class="gallery_grid">
+				<img src="gal1.jpg" alt="First day at home" title="First day at home" class="gallery_item">
+				<img src="gal2.jpg" alt="Dangerous kitty" title="Dangerous kitty" class="gallery_item">
+				<img src="gal3.jpg" alt="Curious kitty" title="Curious kitty" class="gallery_item">
+				<img src="gal4.jpg" alt="Ready to attack" title="Ready to attack" class="gallery_item">
+				<img src="gal5.jpg" alt="Almost fell" title="Almost fell" class="gallery_item">
+				<img src="gal6.jpg" alt="Ballet-cat" title="Ballet cat" class="gallery_item">
+				<img src="gal7.jpg" alt="Why did you wake up me?" title="Why did you wake up me?" class="gallery_item">
+				<img src="gal8.jpg" alt="Watch this mouse" title="Watch this mouse" class="gallery_item">
+			</div>
+		</section>
+		<section class="fun_facts" id="funFacts">
+			<h2>Fun facts about Abi</h2>
+			<div class="fun_facts_list">
+				<div class="fact_item">Abi loves Tuna.</div>
+				<div class="fact_item">Abi is known for her dramatic meows when she's hungry.</div>
+				<div class="fact_item">Sometimes Abi snores like an old grandpa.</div>
+				<div class="fact_item">It takes about 4 days for her to stop being afraid of a new thing in the house.</div>
+				<div class="fact_item">She really doesn't like to bathe. REALLY. DOESN'T. LIKE.</div>
+				<div class="fact_item">She knows her name, if she doesn't respond - she's deliberately ignoring you.</div>
+			</div>
+		</section>
+		<section class="testimonials" id="testimonials">
+			<h2>What people say about Abi</h2>
+			<div class="testimonial_container">
+				<div class="testimonial">
+					<p>Abi is the best cat I've ever met</p>
+					<h4>-Sirius</h4>
+				</div>
+				<div class="testimonial">
+					<p>I'm still sorry you spayed her, she would have had beautiful kittens :(</p>
+					<h4>-Veterinarian</h4>
+				</div>
+				<div class="testimonial">
+					<p>She has a very loud and melodic meow.</p>
+					<h4>-Our neighbors</h4>
+				</div>
+			</div>
+		</section>
+		<section class="contacts" id="contacts">
+			<div class="contact_container">
+				<h2>Contact Abi!</h2>
+				<p>Have any questions or just want to say hello? Get in touch with Abi! (yeah, she has a cat phone)</p>
+				<form class="contact_form">
+					<div class="form_group">
+						<label for="name">Your Name</label>
+						<input type="text" id="name" name="name" required placeholder="Enter your name">
+					</div>
+					<div class="form_group">
+						<label for="email">Your Email</label>
+						<input type="email" id="email" name="email" required placeholder="Enter your email">
+					</div>
+					<div class="form_group">
+						<label for="subject">Subject</label>
+						<input type="text" id="subject" name="subject" required placeholder="Subject of your message">
+					</div>
+					<div class="form_group">
+						<label for="message">Your Message</label>
+						<textarea id="message" name="message" required placeholder="Enter your message"></textarea>
+					</div>
+					<button type="submit" class="submit_button">Send Message</button>
+				</form>
+				<div class="contact_info">
+					<h3>Other ways to contact:</h3>
+					<p>Email: <a href="mailto:abigailsweetkitty123@gmail.com">contact@abi.com</a></p>
+					<p>Write to us in Telegram: <a href="https://t.me/abigailkitty" target="_blank">Telegram</a></p>
+				</div>
+				<div class="google_map">
+					<h3>Visit Us!</h3>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d175899.5783834159!2d30.711787500000003!3d46.459972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6318a0b864c43%3A0x129f8fe28cf2176c!2sOdesa%2C%20Odesa%20Oblast%2C%2065000!5e0!3m2!1sen!2sua!4v1741381555866!5m2!1sen!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer" class="footer">
+		<div class="footer_content">
+			<p class="footer_logo">Abi's Kingdom 🐾</p>
+			<nav class="footer_nav">
+	            <a href="#home">Home</a>
+	            <a href="#about">About</a>
+	            <a href="#funFacts">Fun Facts</a>
+	            <a href="#contacts">Contact</a>
+	        </nav>
+		</div>
+		<p class="footer_copy">© 2025 Abi's Website. All rights reserved.</p>
+	</footer>
+
+
+
+
+	<script src="weabi.js"></script>
+</body>
+</html>
